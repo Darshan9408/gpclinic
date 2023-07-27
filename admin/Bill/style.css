@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: dimgrey;
+}
+.name{
+    font-family: 'Cambria Math';
+    color: black;
+}
+
+.invoice{
+    width: 210mm;
+    height: 148mm;
+    background-color: white;
+    position: relative;
+    padding: 40px 40px 0px 40px; 
+}
+
+.invoice_header{
+    display: flex;
+}
+
+
+
+hr{
+    margin: 0;
+}
+p{
+    margin-bottom: 0;
+}
+.tablem{
+    margin-bottom: 0;
+}
+.sign{
+    position: absolute;
+    padding: 0 0 0 1150;
+    font-weight: bold;
+    color: black;    
+    bottom: 0;
+    left: 0;
+}

@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: dimgrey;
+}
+
+.invoice{
+    width: 148mm;
+    height: 210mm;
+    background-color: white;
+    position: relative;
+    padding: 30px 40px; 
+}
+
+.invoice_header{
+    display: flex;
+}
+
+.name{
+        font-size: 17px;
+        font-family: 'Cambria Math';
+        font-weight: bold;
+    
+    /* padding-left: 54px; */
+}
+
+#bottom {
+    position: absolute;
+    padding: 0 0 0 150px;
+    font-weight: bold;
+    color: black;    
+    bottom: 0;
+    left: 0;
+}
+.oval {
+    height: 40px;
+    width: 150px;
+    background-color:antiquewhite;
+    border-radius: 40%;
+}
+p{
+    margin-bottom: 0;
+}
+.tablem{
+    margin-bottom: 0;
+}
+.sign{
+    position: absolute;
+    padding: 0 0 0 1150;
+    font-weight: bold;
+    color: black;    
+    bottom: 0;
+    left: 0;
+}
