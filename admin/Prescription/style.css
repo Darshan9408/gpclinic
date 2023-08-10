@@ -34,12 +34,13 @@ body{
 
 #bottom {
     position: absolute;
-    padding: 0 0 0 150px;
+    padding: 0 0 0 80px;
     font-weight: bold;
     color: black;    
     bottom: 3rem;
     left: 0;
 }
+
 .oval {
     height: 40px;
     width: 150px;

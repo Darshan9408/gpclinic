@@ -174,15 +174,17 @@ $prescriptions = select("SELECT * FROM `prescriptions` WHERE `ConsultationId` = 
                 } ?>
             </tbody>
         </table>
-
-        <div class="name mx-3" style="color: black;margin-top:12rem;" align="right">
+        <div class="name mx-3" style="color: black;margin-top:15rem;" align="right">
             <hr style="height: 2px;width:40px;margin: 0;">Sign.
         </div>
-
-        <div class="row justify-content-center" id="bottom">
-            <hr style="height: 2px;"> ફરી આવો ત્યારે દવાનો કાગળ સાથે લાવવો.
+        <!-- <hr  id="bottomhr">  -->
+        <div class="row" id="bottom" >
+            <p style="font-size: 15px;"  >______ ફરી આવો ત્યારે દવાનો કાગળ સાથે લાવવો. _______</p>
+            <p style="font-size: 11px;">દવાની આડઅસર દર્દીની તાસીર પર આધાર રાખે છે જે ના માટે ડોકટર જવાબદાર નથી.</p>
         </div>
+        
     </div>
+</div>
 </body>
 
 </html>
